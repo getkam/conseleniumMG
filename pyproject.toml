@@ -1,0 +1,7 @@
+# pyproject.toml
+[tool.pytest.ini_options]
+addopts = "--tracing retain-on-failure"
+testpaths = [
+    "tests",
+]
+pythonpath =["."]
